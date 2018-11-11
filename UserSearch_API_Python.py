@@ -22,6 +22,6 @@ while True:
        response=requests.get(dynamicurl,auth=HTTPBasicAuth(sys.argv[1],pwd))
        obj=response.json()
  else:
-      print("I am done with searching!!")
+      print("Check the list of users in output.json under PWD!")
       break
 
