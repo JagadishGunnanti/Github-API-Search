@@ -23,7 +23,7 @@
 ### Usage
 - Just run the .py script as below.
 
-> ```python3 UserSearch_API_Python.py $username
+> ```python3 UserSearch_API_Python.py $username```
 
 - Provide password in the prompt and view the results in output.json file under PWD.
 
