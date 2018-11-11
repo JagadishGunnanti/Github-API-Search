@@ -15,10 +15,9 @@ while True:
  if link is not None:
        url = link
        dynamicurl=url[1:].split(">")[0]
-       print (dynamicurl)
        response=requests.get(dynamicurl, headers={'Authorization': 'TOK:Token'})
        obj=response.json()
  else:
-      print("I am done with searching!!")
+      print("I am done with searching, please check output.json under PWD for search results!")
       break
 
