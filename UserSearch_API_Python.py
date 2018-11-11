@@ -18,7 +18,6 @@ while True:
  if link is not None:
        url = link
        dynamicurl=url[1:].split(">")[0]
-       print (dynamicurl)
        response=requests.get(dynamicurl,auth=HTTPBasicAuth(sys.argv[1],pwd))
        obj=response.json()
  else:
