@@ -2,6 +2,9 @@
 
 > Scripts written in Python to search a particular file pattern in an organization recursively and to fetch the list of user accounts existing on Github.
 
+## Prerequisite
+- Python3 installation
+
 ## OrgSearch_API_Python.py
 
 - This .py script helps you to search and list out the files that hold particular search pattern in a Github organization.
