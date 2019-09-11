@@ -14,7 +14,7 @@
 
 > ```curl -vu $username https://api.github.com/```
 
-- Now, update auth token in the python script(TOK:$Token) and run the script as below.
+- Now, update auth token in python script(TOK:$Token) and run the script as below.
 
 > ```python3 OrgSearch_API_Python.py $Searchpattern```
 
